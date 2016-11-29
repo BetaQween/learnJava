@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html  ng-app="ui.bootstrap.demo">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-sanitize.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.1.4.js"></script>
+    <script src="example.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid"  ng-controller="RatingDemoCtrl">
+    <div class="row">
+        <div class="col-md-8">
+            <ol class="list-unstyled">
+                <li>
+                    <div class="form-inline">
+                        <div class="form-group">
+                        <img src="..." class="img-responsive" alt="Image">
+                        </div>
+                        <div class="form-group">
+                           <h3><a href="..." class="href-responsive">Something Master</a></h3>
+                            <p class="form-control-static">Service</p>
+                            <address>Ben Yaguda, 33</address>
+
+                                <div class="form-group">
+                                    <span uib-rating style="color: #ffff00" ng-model="rate" max="max" read-only="isReadonly" ng-disabled="isReadonly" ng-click="hoveringOver(rate)"></span>
+                                   Rate: <b>{{rate}}</b> Result: <b>{{rez}}</b>
+                                </div><br>
+                            <div class="form-group">
+                                <ol>
+                                    <li>Comment</li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!--<script src="js/lib/angular.min.js"></script>-->
+</body>
+</html>

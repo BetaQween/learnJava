@@ -1,0 +1,108 @@
+{
+    "masters": [
+        {
+            "cars": [
+                {
+                    "0": "BMW",
+                    "1": "Bugatti",
+                    "2": "Nissan"
+                }
+            ],
+            "companyName": "Varia Limited",
+            "companyTelephone": "+965527266510",
+            "directorName": "Donald Kriak",
+            "email": "beta@gmail.com",
+            "managerName": "Vasia Pupkin",
+            "managerTelephone": "+965527266510",
+            "address": [
+                {
+                    "city": "Tel-Aviv",
+                    "street": "Ben Yhuda",
+                    "house": "7"
+                }
+            ],
+            "services": [
+                {
+                    "0": "Kolesa",
+                    "1": "Shiny",
+                    "2": "Zerkala"
+                }
+            ],
+            "vid": [
+                {
+                    "0": "Avtoservice"
+                }
+            ]
+        },
+        {
+            "cars": [
+                {
+                    "0": "Audi",
+                    "1": "Bugatti",
+                    "2": "CAMC"
+                }
+            ],
+            "companyName": "Dusia Limited",
+            "companyTelephone": "+965527266510",
+            "directorName": "Donald Dack",
+            "email": "beta.qween@gmail.com",
+            "managerName": "Vasia",
+            "managerTelephone": "+965527266510",
+            "address": [
+                {
+                    "city": "Rehovot",
+                    "street": "Ben Or",
+                    "house": "5"
+                }
+            ],
+            "services": [
+                {
+                    "0": "Kolesa",
+                    "1": "Shiny",
+                    "3": "Zerkala"
+                }
+            ],
+            "vid": [
+                {
+                    "0": "Avtoservice",
+                    "1": "Shinomontazh"
+                }
+            ]
+        },
+        {
+            "cars": [
+                {
+                    "0": "Bentley",
+                    "1": "Bugatti",
+                    "2": "Porshe"
+                }
+            ],
+            "companyName": "Toma Limited",
+            "companyTelephone": "+965527266510",
+            "directorName": "Ponka Dack",
+            "email": "qween@gmail.com",
+            "managerName": "Iosik",
+            "managerTelephone": "+965527266510",
+            "`  ": [
+                {
+                    "city": "Ramat Gan",
+                    "street": "Ben Avia",
+                    "house": "15"
+                }
+            ],
+            "services": [
+                {
+                    "0": "Kolesa",
+                    "1": "Shiny",
+                    "2": "Zerkala"
+                }
+            ],
+            "vid": [
+                {
+                    "0": "Shinomontazh",
+                    "1": "Moyka"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    "use strict";
+    function Calculator(){
+
+        this.calculate= function(str){
+
+            var arr = str.split(" ");
+            var a = arr[0];
+            var z = arr[1];
+            var b = arr[2];
+
+
+            if(z == "+"){
+                return +a + +b;
+            }else if(z == "-"){
+                return a - b;
+            }
+            this.addMethod= function(znak, func){
+
+            }
+
+        }
+    }
+
+    var calc = new Calculator;
+    var powerCalc = new Calculator;
+    powerCalc.addMethod("*", function(a, b) {
+        return a * b;
+    });
+    powerCalc.addMethod("/", function(a, b) {
+        return a / b;
+    });
+    powerCalc.addMethod("**", function(a, b) {
+        return Math.pow(a, b);
+    });
+
+    var result = powerCalc.calculate("2 ** 3");
+    alert( result ); // 8
+    alert( calc.calculate("3 + 7") ); // 10
+    alert( calc.calculate("3 - 7") ); // -4
+</script>
+</body>
+</html>
